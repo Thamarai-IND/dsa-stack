@@ -34,11 +34,11 @@ function peek() {
     return stack[top];
 }
 
-// push(10);
-// push(20);
-// push(30);
-// push(40);
-// push(50);
+push(10);
+push(20);
+push(30);
+push(40);
+push(50);
 console.log("initial stack : ",stack);
 console.log("pop : ",pop());
 console.log("print stack: ",printStack());
